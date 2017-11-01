@@ -1,46 +1,67 @@
-		body {
-			background-image: url(bg.png);
-			font-family: Tahoma;
-		}
-		
-		#frame {
-			background-color: rgba(255,200,200,0.3);
-		}
-		
-		header nav ul {
-			list-style-type: none;
-			background-color: rgba(255,255,200,0.3);
-		}
-		
-		#content {
-			
-		}
-		
-		nav li {
-			
-		}
-		
-		nav li a {
-		}
-		
-		main{
-			border: 1px black solid;
-			background-color: rgba(200,200,255,0.3);
-		}
-		
-		aside{
-			border: 1px black solid;
-			background-color: rgba(200,255,200,0.3);
-		}
-		
-		body article {
-			background-color: rgba(200,200,200,0.6);
-		}
-		
-		header {
-		}
-		
-		footer {
-			background-color: rgba(255,255,200,0.3);
-		}
-	
+ body {
+            background-image: url(bg.png);
+            font-family: Tahoma;
+        }
+       
+        #frame {
+            background-color: rgba(255,200,200,0.3);
+ 
+            margin-left: auto;
+            margin-right: auto;
+            width: 1000px;
+            padding: 10px;
+        }
+       
+        header nav ul {
+            list-style-type: none;
+            background-color: rgba(255,255,200,0.3);
+            display: flex;
+            padding: 10px;
+        }
+       
+        #content {
+            display: flex;
+        }
+       
+        nav li {
+            padding-right: 15px;
+        }
+       
+        nav li a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+       
+        main{
+            border: 1px black solid;
+            background-color: rgba(200,200,255,0.3);
+            width: 75%;
+            padding-top: 10px;
+        }
+       
+        aside{
+            border: 1px black solid;
+            background-color: rgba(200,255,200,0.3);
+            width: 35%;
+            padding: 10px 0px;
+        }
+       
+        body article {
+            background-color: rgba(200,200,200,0.6);
+            margin: 10px;
+        }
+       
+        header {
+            text-align: center;
+        }
+       
+        footer {
+            text-align: center;
+            font-weight: bold;
+            background-color: rgba(255,255,200,0.3);
+        }
+ 
+        p {
+            padding: 5px 0px;
+        }
